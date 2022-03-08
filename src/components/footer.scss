@@ -1,0 +1,67 @@
+footer {
+  padding: 4vh 0vh 2vh;
+  background-color: #152238;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+
+  .hstack {
+    margin: auto;
+
+    .vstack {
+      text-align: left;
+
+      a {
+        margin: 0px 10px;
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+        margin-bottom: 2px;
+
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .contactlogo {
+        height: 4vh;
+        width: 4vh;
+      }
+
+      .title {
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #fff;
+      }
+      .subtitle {
+        display: inline-block;
+      }
+    }
+  }
+}
+#imgvertical {
+  width: 10vw;
+}
+#contactusveritcal {
+  width: 5vw;
+}
+#contactusvertical #facebooklogo {
+  margin-left: 0px;
+}
+#contactusvertical p {
+  margin: 0px 5px;
+}
+#contactusvertical #contactushorizontal {
+  margin: 10px auto 10px 0;
+}
+#contactusvertical #hours {
+  margin-top: 5px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px) {
+  .subtitle {
+    display: none;
+  }
+}

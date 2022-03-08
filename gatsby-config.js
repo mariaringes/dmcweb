@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
-      title: `new`,
+      title: `Danbury Music Center`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-sass"]
+  plugins: [
+    `gatsby-plugin-sass`,
+    `gatsby-transformer-sharp`, 
+    `gatsby-plugin-sharp`,
+  ]
 };

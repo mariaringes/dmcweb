@@ -1,0 +1,36 @@
+header {
+  background-color: #152238;
+  color: #fff !important;
+
+  #navbar {
+    img {
+      width: 10vh;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff !important;
+    }
+
+    .navbar-brand {
+      padding: 0px 5px;
+      margin-left: 15px;
+    }
+
+    .navbar-brand:hover {
+      transform: none;
+    }
+
+    a:hover {
+      transform: translateY(-3px);
+    }
+
+    button {
+      color: #fff;
+    }
+
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+}
