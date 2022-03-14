@@ -14,24 +14,25 @@ export default function Footer() {
         <img id='logo' src={ logo }/>
         <Stack direction='vertical' id='aboutvertical'>
           <Link to='/about' className='title'>About</Link>
-          <Link to='/about#intro' className='subtitle'>Who We Are</Link>
-          <Link to='/about#mission' className='subtitle'>Our Mission</Link>
-          <Link to='/about#staff' className='subtitle'>Our Staff</Link>
+          <Link to='/about#wwa' className='subtitle'>Who We Are</Link>
+          <Link to='/about#om' className='subtitle'>Our Mission</Link>
+          <Link to='/about#os' className='subtitle'>Our Staff</Link>
         </Stack>
         <Stack direction='vertical' id='programsvertical'>
           <Link to='/programs' className='title'>Programs</Link>
-          <Link to='/programs#dso' className='subtitle'>Danbury Symphony Orchestra</Link>
-          <Link to='/programs#dcc' className='subtitle'>Danbury Concert Chorus</Link>
-          <Link to='/programs#dco' className='subtitle'>Danbury Community Orchestra</Link>
-          <Link to='/programs#dcs' className='subtitle'>Danbury Centre Strings</Link>
-          <Link to='/programs#dcb' className='subtitle'>Danbury Community Band</Link>
-          <Link to='/programs#dmca' className='subtitle'>DMC Ambassadors</Link>
-          <Link to='/programs#nutc' className='subtitle'>Nutcracker</Link>
-          <Link to='/programs#sep' className='subtitle'>Summer Enrichment Programs</Link>
+          <Link to='/programs/dso' className='subtitle'>Danbury Symphony Orchestra</Link>
+          <Link to='/programs/dcc' className='subtitle'>Danbury Concert Chorus</Link>
+          <Link to='/programs/dco' className='subtitle'>Danbury Community Orchestra</Link>
+          <Link to='/programs/dcs' className='subtitle'>Danbury Centre Strings</Link>
+          <Link to='/programs/dcb' className='subtitle'>Danbury Community Band</Link>
+          <Link to='/programs/dmca' className='subtitle'>DMC Ambassadors</Link>
+          <Link to='/programs/nutc' className='subtitle'>Nutcracker</Link>
+          <Link to='/programs/sep' className='subtitle'>Summer Enrichment Programs</Link>
         </Stack>
         <Stack direction='vertical' id='eventsvertical'>
           <Link to='/events' className='title'>Events</Link>
-          <Link to='/events#recent' className='subtitle'>Recent</Link>
+          <Link to='/events#upc' className='subtitle'>Upcoming</Link>
+          <Link to='/events#rec' className='subtitle'>Recent</Link>
         </Stack>
         <Stack direction='vertical' id='donatevertical'>
           <Link to='/donate' className='title'>Donate</Link>

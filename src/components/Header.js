@@ -17,36 +17,36 @@ export default function Header() {
             <div class="dropdown">
               <Link to='/about' className='dropbtn'>About</Link>
               <div class="dropdown-content">
-                <a href="#">Who We Are</a>
-                <a href="#">Our Mission</a>
-                <a href="#">Our Staff</a>
+                <a href="/about#wwa">Who We Are</a>
+                <a href="/about#om">Our Mission</a>
+                <a href="/about#os">Our Staff</a>
               </div>
             </div>
             <div class="dropdown">
               <Link to='/programs' className='dropbtn'>Programs</Link>
               <div class="dropdown-content">
-                <a href="/programs#dso">Danbury Symphony Orchestra</a>
-                <a href="/programs#dcc">Danbury Concert Chorus</a>
-                <a href="/programs#dco">Danbury Community Orchestra</a>
-                <a href="/programs#dcs">Danbury Centre Strings</a>
-                <a href="/programs#dcb">Danbury Community Band</a>
-                <a href="/programs#dmca">DMC Ambassadors</a>
-                <a href="/programs#nutc">Nutcracker</a>
-                <a href="/programs#sep">Summer Enrichment Programs</a>
+                <a href="/programs/dso">Danbury Symphony Orchestra</a>
+                <a href="/programs/dcc">Danbury Concert Chorus</a>
+                <a href="/programs/dco">Danbury Community Orchestra</a>
+                <a href="/programs/dcs">Danbury Centre Strings</a>
+                <a href="/programs/dcb">Danbury Community Band</a>
+                <a href="/programs/dmca">DMC Ambassadors</a>
+                <a href="/programs/nutc">Nutcracker</a>
+                <a href="/programs/sep">Summer Enrichment Programs</a>
               </div>
             </div>
             <div class="dropdown">
               <Link to='/events' className='dropbtn'>Events</Link>
               <div class="dropdown-content">
-                <a href="#">Upcoming</a>
-                <a href="#">Recent</a>
+                <a href="/events#upc">Upcoming</a>
+                <a href="/events#rec">Recent</a>
               </div>
             </div>
             <div class="dropdown">
               <Link to='/sponsors' className='dropbtn'>Sponsors</Link>
               <div class="dropdown-content">
-                <a href="#">Our Sponsors</a>
-                <a href="#">Become a Sponsor</a>
+                <a href="/sponsors">Our Sponsors</a>
+                <a href="/sponsors#bas">Become a Sponsor</a>
               </div>
             </div>
           </Nav>
