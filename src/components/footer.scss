@@ -1,25 +1,29 @@
 footer {
   padding: 4vh 0vh 2vh;
-  background-color: #152238;
+  background-color: #2b4162;
+  background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
   color: #fff;
   text-align: center;
   font-weight: 100;
 
   .hstack {
     margin: auto;
+    align-self: start;
+    align-items: flex-start;
 
     .vstack {
       text-align: left;
 
       a {
-        margin: 0px 10px;
+        margin: 0px;
         color: rgba(255, 255, 255, 0.7);
         text-decoration: none;
         margin-bottom: 2px;
 
         img {
-          height: 100%;
-          width: 100%;
+          width: 25px;
+          height: 25px;
+          margin-right: 10px;
         }
       }
 
@@ -40,10 +44,12 @@ footer {
   }
 }
 #imgvertical {
+  display: inline-block;
   width: 10vw;
 }
-#contactusveritcal {
+#contactusvertical {
   width: 5vw;
+  height: auto;
 }
 #contactusvertical #facebooklogo {
   margin-left: 0px;
@@ -62,6 +68,35 @@ footer {
 
 @media screen and (max-width: 1200px) {
   .subtitle {
+    display: none !important;
+  }
+  footer {
+    padding: 2vh;
+  }
+  footer .hstack {
+    flex-direction: column;
+  }
+  footer #imgvertical {
+    display: none;
+  }
+  footer .container {
+    text-align: center;
+  }
+  footer .hstack img#logo {
+    display: none;
+  }
+  footer .hstack .vstack .title {
+    margin: 0 auto;
+  }
+  #contactusvertical {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #contactusvertical #contactushorizontal {
     display: none;
   }
 }

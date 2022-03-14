@@ -1,58 +1,193 @@
 body {
-  font-family: "", serif;
+  font-family: "Abel", sans-serif;
+  background-color: rgba(124, 124, 124, 0.2);
 }
 
 #main {
-  background-image: url("../images/sheetmusic.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.outer {
-  position: relative;
-}
-.img {
-  position: relative;
-  height: 75vh;
-  overflow: hidden;
-}
-.img img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  overflow: hidden;
-}
-.text {
-  font-family: "Times New Roman", serif;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#mission {
-  text-align: center;
-  padding: 2vh;
-  margin-top: 2vh;
-}
-#mission h5 {
-  width: 75%;
-  margin: auto;
-}
 .container {
-  margin: 5vh auto;
-  width: 80%;
+  margin: 3vh auto;
+  width: 90%;
 }
+
+.heroouter {
+  .text {
+    color: #fff;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/sheetmusic.jpg");
+    background-size: cover;
+    padding: 35vh 0vh;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.3);
+
+    h1 {
+      font-family: "Homemade Apple", cursive;
+    }
+  }
+}
+
+#missioncontainer {
+  margin: 4vh 5vh;
+
+  #mission {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://images.unsplash.com/photo-1589666629225-750e2f7875f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 8vh 0;
+    text-align: center;
+    color: #fff;
+
+    h5 {
+      width: 75%;
+      margin: auto;
+      font-size: 1.3em;
+      line-height: 2em;
+    }
+  }
+}
+
 #featuredpages {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
+
+  .wrapper {
+    height: 100%;
+  }
+
+  .td-figure {
+    height: 75%;
+    perspective: 1500px;
+
+    img {
+      transform: rotateX(-6deg) rotateY(-15deg) rotateZ(0deg);
+      border-radius: 0.25em;
+      box-shadow: 2px 10px 30px hsla(0, 0%, 0%, 0.25);
+      transition: 0.3s;
+      width: 100%;
+      height: 100%;
+    }
+
+    #aboutimg {
+      transform: rotateX(-6deg) rotateY(15deg) rotateZ(0deg);
+    }
+    #programsimg {
+      transform: rotateX(-6deg) rotateY(0deg) rotateZ(0deg);
+    }
+  }
+  .td-figure:hover > img {
+    transform: rotate(0) !important;
+  }
+
+  a {
+    width: 32%;
+    filter: drop-shadow(5px 5px 10px grey);
+    border-radius: 5px;
+    padding-top: 3vh;
+
+    .fpimage {
+      width: 80%;
+      height: 80%;
+      border-radius: 5px;
+    }
+    .fptext {
+      color: #000;
+      margin-top: 1.5vh;
+    }
+  }
+
+  .image {
+    height: 25vh;
+  }
 }
-#featuredpages .image {
-  height: 25vh;
+
+#sponsorus {
+  .colored {
+    background-color: #000;
+    padding: 5vh 0;
+  }
+  #content {
+    background: linear-gradient(
+        0deg,
+        rgba(233, 169, 169, 0.6),
+        rgba(233, 169, 169, 0.6)
+      ),
+      url("../images/slippers.jpg");
+    background-size: cover;
+    background-position: bottom;
+    color: #000;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+
+    div {
+      width: 50%;
+      text-align: center;
+    }
+    #text {
+      #donatebtn {
+        border-radius: 15px;
+        color: #000;
+      }
+    }
+    #image {
+      padding: 0vh;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #featuredpages {
+    .card {
+      width: 100% !important;
+      margin: 0 1vw;
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  #featuredpages {
+    display: inline-block;
+    width: 100%;
+
+    a {
+      .fpimage {
+        width: 50vw;
+        height: 45vw;
+      }
+    }
+  }
+
+  #sponsorus {
+    .colored {
+      padding: 0;
+    }
+    #content {
+      flex-direction: column;
+      div {
+        width: 100%;
+      }
+      #text {
+        padding: 6vh 0;
+      }
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .container {
+      width: 90%;
+    }
+  }
 }

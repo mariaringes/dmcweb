@@ -7,5 +7,30 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`, 
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Roboto",
+              variants: ["300", "400", "500"],
+            },
+            {
+              family: "Poppins",
+              variants: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+            },
+            {
+              family: "Homemade Apple",
+            },
+            {
+              family: 'Abel',
+            }
+          ],
+        },
+        usePreload: true,
+        usePreconnect: true,
+      },
+    },
   ]
 };

@@ -2,10 +2,10 @@ import * as React from 'react'
 import { Container } from 'react-bootstrap'
 import Layout from '../components/Layout'
 
-export default function DonatePage() {
+export default function SponsorsPage() {
   return (
     <Layout>
-      <Container>DONATE</Container>
+      <Container>SPONSORS</Container>
     </Layout>
   );
 }
