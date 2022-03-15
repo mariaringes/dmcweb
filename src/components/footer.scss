@@ -65,7 +65,10 @@ footer {
   font-weight: 800;
   text-transform: uppercase;
 }
-
+#copyright {
+  color: black;
+  text-shadow: 0px 0px 20px #fff;
+}
 @media screen and (max-width: 1200px) {
   .subtitle {
     display: none !important;

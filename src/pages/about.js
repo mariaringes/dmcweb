@@ -1,9 +1,12 @@
 import * as React from 'react';
 import { Fragment } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+//Components
 import Layout from '../components/Layout';
 import Staff from '../components/Staff';
+//Styles
 import styles from './about.scss';
+//images
 import mission from '../images/target.jpg';
 import vision from '../images/vision.jpg';
 import values from '../images/values.jpg';
@@ -17,20 +20,20 @@ export default function AboutPage() {
     <Layout>
       <div id='aboutusheader'>
         <div id='text'>
-          <h3>About</h3>
+          <h2>About</h2>
           <h1>Danbury Music Centre</h1>
         </div>
       </div>
 
       <div id='wwa'>
-        <h2>Who We Are</h2>
-        <h5>The Danbury Music Centre, is 501(c)(3), non-profit organization located at 256 Danbury Main Street housed in a beautiful 19th-century building, formerly the public library. <br></br>We provide classical community music experiences through our ensembles and events. In 1993, the Danbury Common Council dedicated the upstairs rehearsal hall in honor of the late Marian Anderson, a world-renowned contralto who was a resident of Danbury and served on the Music Centre Board of Directors.</h5>
+        <h2 id='wwatitle'>WHO WE ARE</h2>
+        <h5 id='wwatextcontent'>The Danbury Music Centre, is 501(c)(3), non-profit organization located at 256 Danbury Main Street housed in a beautiful 19th-century building, formerly the public library. <br></br>We provide classical community music experiences through our ensembles and events. In 1993, the Danbury Common Council dedicated the upstairs rehearsal hall in honor of the late Marian Anderson, a world-renowned contralto who was a resident of Danbury and served on the Music Centre Board of Directors.</h5>
       </div>
 
       <div class='category' id='ourmission'>
         <div class='text'>
-          <h3>Our Mission</h3>
-          <p>To sponsor musical organizations, both instrumental and vocal, in which persons of a wide variety of musical backgrounds are encouraged to study and perform classical and modern compositions to improve their musical ability and to share the joy of music with the people of the greater Danbury area. <br></br><br></br> The musical organizations of the Danbury Music Centre will be composed of amateur and professional musicians from the greater Danbury area and will be conducted by professional directors. Most performances will be free to the public.</p>
+          <h2>OUR MISSION</h2>
+          <h6 class='textcontent'>To sponsor musical organizations, both instrumental and vocal, in which persons of a wide variety of musical backgrounds are encouraged to study and perform classical and modern compositions to improve their musical ability and to share the joy of music with the people of the greater Danbury area. <br></br><br></br> The musical organizations of the Danbury Music Centre will be composed of amateur and professional musicians from the greater Danbury area and will be conducted by professional directors. Most performances will be free to the public.</h6>
         </div>
         <div class='image'><img src={mission}></img></div>
       </div>
@@ -38,15 +41,15 @@ export default function AboutPage() {
       <div class='category' id='vision'>
         <div class='image'><img src={vision}></img></div>
         <div class='text'>
-          <h3>Our Vision</h3>
-          <p>Enriching lives through music and performing arts by providing a nurturing, inclusive, and creative environment for a diverse community.</p>
+          <h2>OUR VISION</h2>
+          <h6 class='textcontent'>Enriching lives through music and performing arts by providing a nurturing, inclusive, and creative environment for a diverse community.</h6>
         </div>
       </div>
 
       <div class='category' id='values'>
         <div class='text'>
-          <h3>Our Values</h3>
-          <p>Education, Experience, Entertainment</p>
+          <h2>OUR VALUES</h2>
+          <h6 class='textcontent'>Education, Experience, Entertainment</h6>
           <div id='icons'>
             <img src={presentation}></img>
             <img src={audience}></img>
@@ -57,7 +60,7 @@ export default function AboutPage() {
       </div>
 
       <div id='ourstaff'>
-        <h2>Our Staff</h2>
+        <h2 id='ourstafftitle'>OUR STAFF</h2>
 
         {/* <div id='quicklink'>
           <p>Quick Links</p>
@@ -128,7 +131,6 @@ export default function AboutPage() {
             <Col><Staff img={user} name='Beth Ann Fetzer'></Staff></Col>
           </Row>
         </Container>
-
       </div>
     </Layout>
   );

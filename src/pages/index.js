@@ -10,16 +10,15 @@ export default function IndexPage() {
     
     <div class='heroouter'>
       <div class='text'>
-        <h1 class='display-3'>Danbury Music Centre</h1>
+        <h1 id='dmctitle' class='display-3'>Danbury Music Centre</h1>
         <h4>Community Music Since 1935</h4>
-        {/* <Button variant="outline-light">Donate</Button> */}
       </div>
     </div>
 
     <div id='missioncontainer'>
       <div id='mission'>
-        <h1>Our Mission</h1>
-        <h5>To sponsor musical organizations, both instrumental and vocal, in which persons of a wide variety of musical backgrounds are encouraged to study and perform classical and modern compositions to improve their musical ability and to share the joy of music with the people of the greater Danbury area.</h5>
+        <h2>Our Mission</h2>
+        <h5 id='missionstatement'>To sponsor musical organizations, both instrumental and vocal, in which persons of a wide variety of musical backgrounds are encouraged to study and perform classical and modern compositions to improve their musical ability and to share the joy of music with the people of the greater Danbury area.</h5>
       </div>
     </div>
 
@@ -58,19 +57,16 @@ export default function IndexPage() {
       <div class='colored' id='top'></div>
       <div id='content'>
         <div class='text' id='becomeamember'>
-          <h2>BECOME <br></br>A MEMBER</h2>
-          <p>Join our community and expert directors who will <br></br>support you along your musical journey.</p>
+          <h4>BECOME <br></br>A MEMBER</h4>
+          <h6>Join our community and expert directors who will <br></br>support you along your musical journey.</h6>
           <Button id='donatebtn' variant="light">JOIN</Button>
         </div>
         <div class='text' id='support'>
-          <h2>SUPPORT THE <br></br>DANBURY MUSIC CENTRE</h2>
-          <p>Your donations help to continue our mission to <br></br>bring music to the greater Danbury Area!</p>
+          <h4>SUPPORT THE <br></br>DANBURY MUSIC CENTRE</h4>
+          <h6>Your donations help to continue our mission to <br></br>bring music to the greater Danbury Area!</h6>
           <Button id='donatebtn' variant="light">DONATE</Button>
         </div>
       </div>
-      <div class='colored' id='bottom'></div>
     </div>
-
-    
   </Layout>;
 }

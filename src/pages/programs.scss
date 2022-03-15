@@ -1,3 +1,28 @@
-body {
-  background-color: rgba(124, 124, 124, 0.2);
+#programsheader {
+  background-color: #d8c9a2;
+  background-image: linear-gradient(to right, transparent, #3b352e 75%),
+    url("../images/hands.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: right;
+
+  #text {
+    padding: 25vh 5vw 25vh;
+  }
+}
+
+#programs {
+  padding: 4vh 5vw;
+  text-align: center;
+  .program {
+    img {
+      width: 50%;
+      filter: drop-shadow(3px 3px 4px black);
+    }
+  }
+  .col {
+    margin-top: 3vh;
+  }
 }

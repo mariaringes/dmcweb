@@ -14,10 +14,10 @@
 #wwa {
   text-align: center;
   padding: 4vh 5vw;
-  h2 {
+  #wwatitle {
     text-shadow: 3px 3px 10px white;
   }
-  h5 {
+  #wwatextcontent {
     padding: 2vh 0 0;
   }
 }
@@ -44,7 +44,7 @@
     align-items: center;
     text-align: center;
 
-    p {
+    .textcontent {
       width: 70%;
       margin: 0 auto;
     }
@@ -77,7 +77,7 @@
   margin-top: 10vh;
   color: #fff;
 
-  h2 {
+  #ourstafftitle {
     font-size: 4rem;
     margin-top: 4vh;
     margin-bottom: 0vh;
@@ -87,7 +87,6 @@
     padding: 2vh 2vh 0;
 
     .staffsectiontitle {
-      font-size: 2.25rem;
       text-transform: uppercase;
       text-shadow: 0px 0px 5px #fff;
     }
@@ -119,7 +118,33 @@
 }
 
 @media screen and (max-width: 700px) {
+  #aboutusheader {
+    #text {
+      padding: 10vh 5vw 10vh;
+    }
+  }
+  #wwa {
+    padding: 2vh 5vw;
+    #wwatextcontent {
+      padding: 0.5vh 0 0;
+    }
+  }
   .category {
-    flex-direction: row;
+    flex-direction: column;
+    width: 80%;
+    margin: 1vh auto;
+    .text {
+      padding: 1vh;
+      width: 100%;
+      .textcontent {
+        width: 80%;
+      }
+    }
+    .image {
+      display: none;
+    }
+  }
+  #ourstaff {
+    margin-top: 4vh;
   }
 }

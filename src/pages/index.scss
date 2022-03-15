@@ -29,7 +29,7 @@ body {
     align-items: center;
     text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.3);
 
-    h1 {
+    #dmctitle {
       font-family: "Homemade Apple", cursive;
     }
   }
@@ -48,7 +48,7 @@ body {
     text-align: center;
     color: #fff;
 
-    h5 {
+    #missionstatement {
       width: 75%;
       margin: auto;
       font-size: 1.3em;
@@ -165,11 +165,16 @@ body {
   #featuredpages {
     display: inline-block;
     width: 100%;
-
     a {
       .fpimage {
         width: 50vw;
         height: 45vw;
+      }
+    }
+    .td-figure {
+      transform: rotate(0) !important;
+      img {
+        transform: rotate(0) !important;
       }
     }
   }

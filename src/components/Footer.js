@@ -62,6 +62,7 @@ export default function Footer() {
           <p class='subtitle'>Friday: Closed</p>
         </Stack>
       </Stack>
+      <p id='copyright'>Maria Ringes 2022©</p>
     </div>
   </footer>;
 }
