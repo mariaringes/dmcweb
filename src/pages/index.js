@@ -57,13 +57,15 @@ export default function IndexPage() {
     <div id='sponsorus'>
       <div class='colored' id='top'></div>
       <div id='content'>
-        <div id='text'>
-          <h2>Support the <br></br>Danbury Music Centre</h2>
-          <p>Your donations help to continue our mission to <br></br>bring music to the greater Danbury Area!</p>
-          <Button id='donatebtn' variant="light">Donate</Button>
+        <div class='text' id='becomeamember'>
+          <h2>BECOME <br></br>A MEMBER</h2>
+          <p>Join our community and expert directors who will <br></br>support you along your musical journey.</p>
+          <Button id='donatebtn' variant="light">JOIN</Button>
         </div>
-        <div class='colored' id='image'>
-          <img src='https://danburymusiccentre.org/wp-content/uploads/2021/03/DMC-Nut-2019-Battle-Transformation-DSC-6264-scaled.jpg'></img>
+        <div class='text' id='support'>
+          <h2>SUPPORT THE <br></br>DANBURY MUSIC CENTRE</h2>
+          <p>Your donations help to continue our mission to <br></br>bring music to the greater Danbury Area!</p>
+          <Button id='donatebtn' variant="light">DONATE</Button>
         </div>
       </div>
       <div class='colored' id='bottom'></div>

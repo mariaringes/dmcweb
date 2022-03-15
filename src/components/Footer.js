@@ -15,8 +15,8 @@ export default function Footer() {
         <Stack direction='vertical' id='aboutvertical'>
           <Link to='/about' className='title'>About</Link>
           <Link to='/about#wwa' className='subtitle'>Who We Are</Link>
-          <Link to='/about#om' className='subtitle'>Our Mission</Link>
-          <Link to='/about#os' className='subtitle'>Our Staff</Link>
+          <Link to='/about#ourmission' className='subtitle'>Our Mission</Link>
+          <Link to='/about#ourstaff' className='subtitle'>Our Staff</Link>
         </Stack>
         <Stack direction='vertical' id='programsvertical'>
           <Link to='/programs' className='title'>Programs</Link>

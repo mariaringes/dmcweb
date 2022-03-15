@@ -14,7 +14,7 @@ module.exports = {
           google: [
             {
               family: "Roboto",
-              variants: ["300", "400", "500"],
+              variants: ["200", "300", "400", "500"],
             },
             {
               family: "Poppins",

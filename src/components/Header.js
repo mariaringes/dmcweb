@@ -18,8 +18,8 @@ export default function Header() {
               <Link to='/about' className='dropbtn'>About</Link>
               <div class="dropdown-content">
                 <a href="/about#wwa">Who We Are</a>
-                <a href="/about#om">Our Mission</a>
-                <a href="/about#os">Our Staff</a>
+                <a href="/about#ourmission">Our Mission</a>
+                <a href="/about#ourstaff">Our Staff</a>
               </div>
             </div>
             <div class="dropdown">
