@@ -15,8 +15,8 @@ export default function Event (props) {
                 <p id='date'>{props.month}<br></br>{props.day}</p>
             </div>
             <div id='cardbody'>
-                <h6>{props.date}</h6>
-                <h4>{props.title}</h4>
+                <h5>{props.date}</h5>
+                <h3>{props.title}</h3>
                 <Button variant='light' href={props.to}>Learn More</Button>
             </div>
         </div>

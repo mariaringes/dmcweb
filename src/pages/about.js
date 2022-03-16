@@ -32,7 +32,7 @@ export default function AboutPage() {
 
       <div class='category' id='ourmission'>
         <div class='text'>
-          <h2>OUR MISSION</h2>
+          <h3>OUR MISSION</h3>
           <h6 class='textcontent'>To sponsor musical organizations, both instrumental and vocal, in which persons of a wide variety of musical backgrounds are encouraged to study and perform classical and modern compositions to improve their musical ability and to share the joy of music with the people of the greater Danbury area. <br></br><br></br> The musical organizations of the Danbury Music Centre will be composed of amateur and professional musicians from the greater Danbury area and will be conducted by professional directors. Most performances will be free to the public.</h6>
         </div>
         <div class='image'><img src={mission}></img></div>
@@ -41,14 +41,14 @@ export default function AboutPage() {
       <div class='category' id='vision'>
         <div class='image'><img src={vision}></img></div>
         <div class='text'>
-          <h2>OUR VISION</h2>
+          <h3>OUR VISION</h3>
           <h6 class='textcontent'>Enriching lives through music and performing arts by providing a nurturing, inclusive, and creative environment for a diverse community.</h6>
         </div>
       </div>
 
       <div class='category' id='values'>
         <div class='text'>
-          <h2>OUR VALUES</h2>
+          <h3>OUR VALUES</h3>
           <h6 class='textcontent'>Education, Experience, Entertainment</h6>
           <div id='icons'>
             <img src={presentation}></img>
@@ -78,7 +78,7 @@ export default function AboutPage() {
         </Container>
 
         <Container id='musicaldirectors'>
-          <h3 class='staffsectiontitle'>Musical Directors</h3>
+          <h4 class='staffsectiontitle'>Musical Directors</h4>
           <Row xs={2} md={3} lg={4}>
             <Col><Staff img='https://danburymusiccentre.org/wp-content/uploads/2020/10/ArielRudiakov.jpg' name='Ariel Rudiakov' position='Danbury Symphony Orchestra' email=''></Staff></Col>
             <Col><Staff img='https://danburymusiccentre.org/wp-content/uploads/2020/10/Jason_Thoms-2017-683x1024-1.jpg' name='Jason Thoms' position='Danbury Concert Chorus' email=''></Staff></Col>
@@ -92,7 +92,7 @@ export default function AboutPage() {
         </Container>
 
         <Container id='boardofdirectors'>
-          <h3 class='staffsectiontitle'>Board of Directors / Officers</h3>
+          <h4 class='staffsectiontitle'>Board of Directors / Officers</h4>
           <Row xs={2} md={3} lg={4}>
             <Col><Staff img={user} name='Laura Flachbart' position='President'></Staff></Col>
             <Col><Staff img={user} name='Gina Corriero' position='Vice President'></Staff></Col>
@@ -102,7 +102,7 @@ export default function AboutPage() {
         </Container>
 
         <Container id='governingboard'>
-          <h3 class='staffsectiontitle'>Governing Board</h3>
+          <h4 class='staffsectiontitle'>Governing Board</h4>
           <Row xs={3} md={4} lg={4}>
             <Col><Staff img={user} name='Michael Bank'></Staff></Col>
             <Col><Staff img={user} name='Marcie Gemza'></Staff></Col>
@@ -116,14 +116,14 @@ export default function AboutPage() {
         </Container>
 
         <Container id='honoraryboardmembers'>
-          <h3 class='staffsectiontitle'>Honorary Board Members</h3>
+          <h4 class='staffsectiontitle'>Honorary Board Members</h4>
           <Row xs={1} md={1} lg={1}>
             <Col><Staff img={user} name='Linda Poulin'></Staff></Col>
           </Row>
         </Container>
 
         <Container id='advisoryboardmembers'>
-          <h3 class='staffsectiontitle'>Advisory Board Members</h3>
+          <h4 class='staffsectiontitle'>Advisory Board Members</h4>
           <Row xs={2} md={2} lg={4}>
             <Col><Staff img={user} name={<Fragment>Former Mayor, <br></br> Mark Boughton</Fragment>}></Staff></Col>
             <Col><Staff img={user} name='Guy DePaul'></Staff></Col>

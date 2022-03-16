@@ -31,6 +31,9 @@ export default function Footer() {
         </Stack>
         <Stack direction='vertical' id='eventsvertical'>
           <Link to='/events' className='title'>Events</Link>
+          <Link to='/events/5k' className='subtitle'>Annual 5K</Link>
+          <Link to='/events/dcbcbf' className='subtitle'>Danbury Community Band: Concert Band Favorites</Link>
+          <Link to='/events/gala' className='subtitle'>Gala</Link>
         </Stack>
         <Stack direction='vertical' id='donatevertical'>
           <Link to='/donate' className='title'>Donate</Link>
