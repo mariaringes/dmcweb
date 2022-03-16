@@ -37,6 +37,11 @@ export default function Header() {
             </div>
             <div class="dropdown">
               <Link to='/events' className='dropbtn'>Events</Link>
+              <div class="dropdown-content">
+                <a href="/events/5k">Annual 5K</a>
+                <a href="/events/dcbcbf">Danbury Community Band: Concert Band Favorites</a>
+                <a href="/events/gala">Gala</a>
+              </div>
             </div>
             <div class="dropdown">
               <Link to='/sponsors' className='dropbtn'>Sponsors</Link>
