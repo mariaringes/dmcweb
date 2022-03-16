@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "gatsby";
-import { Container, Card, Button } from 'react-bootstrap';
+import { Container, } from 'react-bootstrap';
 import Layout from '../components/Layout';
 import styles from './eventdetail.scss';
 //Icons
