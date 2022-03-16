@@ -1,0 +1,14 @@
+#eventsheader {
+  background-color: #d8c9a2;
+  background-image: linear-gradient(to left, transparent, #796c5d 80%),
+    url("../images/auditorium.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: #fff;
+  text-align: left;
+
+  #text {
+    padding: 2vh 5vw 2vh;
+  }
+}

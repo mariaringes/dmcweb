@@ -37,10 +37,6 @@ export default function Header() {
             </div>
             <div class="dropdown">
               <Link to='/events' className='dropbtn'>Events</Link>
-              <div class="dropdown-content">
-                <a href="/events#upc">Upcoming</a>
-                <a href="/events#rec">Recent</a>
-              </div>
             </div>
             <div class="dropdown">
               <Link to='/sponsors' className='dropbtn'>Sponsors</Link>
