@@ -1,4 +1,6 @@
 import React from 'react';
+//Styles
+import styles from './staff.scss';
 
 export default function Staff (props) {
     const imageExists = props.img;

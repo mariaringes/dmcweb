@@ -1,40 +1,105 @@
-#event {
-  display: flex;
-  #eventimg {
-    width: 25%;
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      filter: drop-shadow(1px 1px 5px black);
-    }
+#programheader{
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+
+#programdetails{
+  margin-top: 4vh;
+
+  #description{
+    margin: 2vh auto 0vh;
+    line-height: 1.4;
   }
-  #eventtext {
-    width: 75%;
-    padding: 5vh;
-    #eventdescription {
-      margin-top: 10px;
+}
+
+#programtimedetails{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3vh 0;
+  div{
+    padding: 2vh;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 15px;
+  }
+}
+
+#staff{
+  padding: 3vh 0;
+  text-align:center;
+
+}
+
+#joinus{
+  display: flex;
+  justify-content: space-between;
+  margin: 0vh auto;
+  align-items:center;
+  border-radius: 10px;
+  #title{
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+  #joinusimg{
+    width: 50%;
+    margin: 5vh 5vw 5vh 0;
+    border-radius: 10px;
+  }
+  #joinustxt{
+    width: 50%;
+    #title {
+      font-size: 3rem;
+      text-transform: uppercase;
     }
   }
 }
 
-@media screen and (max-width: 700px) {
-  #event {
+#joinusimage{
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+
+#memberinformation{
+  padding: 4vh;
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  background-color: #12100e;
+
+  #title{
+    text-transform: uppercase;
+  }
+  #memberlink{
+    width: 35vw;
+    max-width: 300px;
+    background-color: #fff;
+    color: #12100e!important;
+    padding: 1vh;
+    margin: 3vh auto 0;
+    text-align: center;
+
+    a{
+      text-decoration: none;
+      color: #12100e!important;
+    }
+  }
+}
+@media screen and (max-width: 700px){
+  #programtimedetails{
     flex-direction: column;
-    #eventimg {
-      width: 50%;
-      margin: auto;
-      img {
-        height: auto;
-      }
+    #concertschedule{
+      margin-top: 3vh;
     }
-    #eventtext {
-      width: 80%;
-      margin: 0 auto;
-      padding: 5vh 0vh;
-      #eventdescription {
-        text-align: center;
-      }
-    }
+  }
+
+  #joinus{
+    flex-direction: column;
+    text-align: center;
+    background-color: #12100e;
+    background-image: none;
+    margin: 3vh auto;
+    width: 100%;
   }
 }

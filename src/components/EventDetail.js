@@ -14,7 +14,6 @@ import {
 export default function EventDetail (props) {
     if (props.location) {
         return (
-            <Layout>
               <Container id='event'>
                 <div id='eventimg'>
                   <img src={props.img}></img>
@@ -30,11 +29,9 @@ export default function EventDetail (props) {
                   </p>
                 </div>
               </Container>
-            </Layout>
           );
     } else{
         return (
-            <Layout>
               <Container id='event'>
                 <div id='eventimg'>
                   <img src={props.img}></img>
@@ -49,7 +46,6 @@ export default function EventDetail (props) {
                   </p>
                 </div>
               </Container>
-            </Layout>
           );
     }
 }

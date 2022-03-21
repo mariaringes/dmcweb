@@ -94,41 +94,41 @@ export default function AboutPage() {
         <Container id='boardofdirectors'>
           <h4 class='staffsectiontitle'>Board of Directors / Officers</h4>
           <Row xs={2} md={3} lg={4}>
-            <Col><Staff img={user} name='Laura Flachbart' position='President'></Staff></Col>
-            <Col><Staff img={user} name='Gina Corriero' position='Vice President'></Staff></Col>
-            <Col><Staff img={user} name='Peg Heetmann' position='Treasurer'></Staff></Col>
-            <Col><Staff img={user} name='Joan Howard' position='Secretary'></Staff></Col>
+            <Col><Staff name='Laura Flachbart' position='President'></Staff></Col>
+            <Col><Staff name='Gina Corriero' position='Vice President'></Staff></Col>
+            <Col><Staff name='Peg Heetmann' position='Treasurer'></Staff></Col>
+            <Col><Staff name='Joan Howard' position='Secretary'></Staff></Col>
           </Row>
         </Container>
 
         <Container id='governingboard'>
           <h4 class='staffsectiontitle'>Governing Board</h4>
           <Row xs={3} md={4} lg={4}>
-            <Col><Staff img={user} name='Michael Bank'></Staff></Col>
-            <Col><Staff img={user} name='Marcie Gemza'></Staff></Col>
-            <Col><Staff img={user} name='Alice Gottlieb'></Staff></Col>
-            <Col><Staff img={user} name='Nancy Lunt'></Staff></Col>
-            <Col><Staff img={user} name='Paul Matchen'></Staff></Col>
-            <Col><Staff img={user} name='Dawn Ringes'></Staff></Col>
-            <Col><Staff img={user} name='Karen Watko'></Staff></Col>
-            <Col><Staff img={user} name='Kevin Webb'></Staff></Col>
+            <Col><Staff name='Michael Bank'></Staff></Col>
+            <Col><Staff name='Marcie Gemza'></Staff></Col>
+            <Col><Staff name='Alice Gottlieb'></Staff></Col>
+            <Col><Staff name='Nancy Lunt'></Staff></Col>
+            <Col><Staff name='Paul Matchen'></Staff></Col>
+            <Col><Staff name='Dawn Ringes'></Staff></Col>
+            <Col><Staff name='Karen Watko'></Staff></Col>
+            <Col><Staff name='Kevin Webb'></Staff></Col>
           </Row>
         </Container>
 
         <Container id='honoraryboardmembers'>
           <h4 class='staffsectiontitle'>Honorary Board Members</h4>
           <Row xs={1} md={1} lg={1}>
-            <Col><Staff img={user} name='Linda Poulin'></Staff></Col>
+            <Col><Staff name='Linda Poulin'></Staff></Col>
           </Row>
         </Container>
 
         <Container id='advisoryboardmembers'>
           <h4 class='staffsectiontitle'>Advisory Board Members</h4>
           <Row xs={2} md={2} lg={4}>
-            <Col><Staff img={user} name={<Fragment>Former Mayor, <br></br> Mark Boughton</Fragment>}></Staff></Col>
-            <Col><Staff img={user} name='Guy DePaul'></Staff></Col>
-            <Col><Staff img={user} name='Brigid Guertin'></Staff></Col>
-            <Col><Staff img={user} name='Beth Ann Fetzer'></Staff></Col>
+            <Col><Staff name={<Fragment>Former Mayor, <br></br> Mark Boughton</Fragment>}></Staff></Col>
+            <Col><Staff name='Guy DePaul'></Staff></Col>
+            <Col><Staff name='Brigid Guertin'></Staff></Col>
+            <Col><Staff name='Beth Ann Fetzer'></Staff></Col>
           </Row>
         </Container>
       </div>
