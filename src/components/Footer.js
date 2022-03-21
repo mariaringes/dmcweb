@@ -20,14 +20,14 @@ export default function Footer() {
         </Stack>
         <Stack direction='vertical' id='programsvertical'>
           <Link to='/programs' className='title'>Programs</Link>
-          <Link to='/programs/dso' className='subtitle'>Danbury Symphony Orchestra</Link>
-          <Link to='/programs/dcc' className='subtitle'>Danbury Concert Chorus</Link>
-          <Link to='/programs/dco' className='subtitle'>Danbury Community Orchestra</Link>
-          <Link to='/programs/dcs' className='subtitle'>Danbury Centre Strings</Link>
-          <Link to='/programs/dcb' className='subtitle'>Danbury Community Band</Link>
-          <Link to='/programs/dmca' className='subtitle'>DMC Ambassadors</Link>
-          <Link to='/programs/nutc' className='subtitle'>Nutcracker</Link>
-          <Link to='/programs/sep' className='subtitle'>Summer Enrichment Programs</Link>
+          <Link to='/programs/danbury-symphony-orchestra' className='subtitle'>Danbury Symphony Orchestra</Link>
+          <Link to='/programs/danbury-concert-chorus' className='subtitle'>Danbury Concert Chorus</Link>
+          <Link to='/programs/danbury-community-orchestra' className='subtitle'>Danbury Community Orchestra</Link>
+          <Link to='/programs/danbury-centre-strings' className='subtitle'>Danbury Centre Strings</Link>
+          <Link to='/programs/danbury-community-band' className='subtitle'>Danbury Community Band</Link>
+          <Link to='/programs/dmc-ambassadors' className='subtitle'>DMC Ambassadors</Link>
+          <Link to='/programs/nutcracker' className='subtitle'>Nutcracker</Link>
+          <Link to='/programs/summer-enrichment-programs' className='subtitle'>Summer Enrichment Programs</Link>
         </Stack>
         <Stack direction='vertical' id='eventsvertical'>
           <Link to='/events' className='title'>Events</Link>
@@ -63,7 +63,7 @@ export default function Footer() {
           <p class='subtitle'>Friday: Closed</p>
         </Stack>
       </Stack>
-      <p id='copyright'>Maria Ringes 2022©</p>
+      <p id='copyright'>Copyright © 2022 Danbury Music Centre | Design & Dev MRINGES</p>
     </div>
   </footer>;
 }

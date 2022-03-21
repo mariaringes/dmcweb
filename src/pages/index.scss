@@ -7,7 +7,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-
 .container {
   margin: 3vh auto;
   width: 90%;
@@ -30,7 +29,7 @@ body {
     text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.3);
 
     #dmctitle {
-      font-family: "Homemade Apple", cursive;
+      font-family: 'Lobster Two', cursive;
     }
   }
 }
@@ -162,6 +161,13 @@ body {
   }
 }
 @media screen and (max-width: 700px) {
+  .heroouter{
+    .text{
+      #dmctitle{
+        text-align:center;
+      }
+    }
+  }
   #featuredpages {
     display: inline-block;
     width: 100%;

@@ -1,17 +1,21 @@
 import * as React from 'react';
 import { Fragment } from 'react';
-//Components
+//Layout (header + footer)
+import Layout from '../../components/Layout';
+//Custom Components
 import EventDetail from '../../components/EventDetail';
 
 export default function NAMEPage() {
   return (
-    <EventDetail
-      img=''
-      title=''
-      subtitle=''
-      date=''
-      time=''
-      eventDescription={<Fragment></Fragment>}>
-    </EventDetail>
+    <Layout>
+      <EventDetail
+        img=''
+        title=''
+        subtitle=''
+        date=''
+        time=''
+        eventDescription={<Fragment></Fragment>}>
+      </EventDetail>
+    </Layout>
   );
 }

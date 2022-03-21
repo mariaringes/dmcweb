@@ -17,6 +17,7 @@
   padding: 4vh 5vw;
   text-align: center;
   .program {
+    transition: transform 1s;
     img {
       width: 50%;
       filter: drop-shadow(3px 3px 4px black);
@@ -24,5 +25,9 @@
   }
   .col {
     margin-top: 3vh;
+  }
+  .program:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(3px 3px 15px black);
   }
 }

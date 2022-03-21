@@ -26,6 +26,9 @@ module.exports = {
             },
             {
               family: 'Abel',
+            },
+            {
+              family: 'Lobster Two',
             }
           ],
         },
